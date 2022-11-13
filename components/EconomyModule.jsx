@@ -1,17 +1,17 @@
 import React from 'react';
 
-import { StockChart, Dolar, News, Video, Future, Womens } from './economytable';
+import { StockChart, Dolar, News, Video, Future, Womens } from '.';
 
 const EconomyModule = (props) => {
   return (
     <>
       <div className="grid grid-cols-5 gap-1">
-        {/* <StockChart />
+        <StockChart />
         <Dolar />
         <News />
         <Future />
         <Video />
-        <Womens /> */}
+        <Womens />
         <div>
           <p>
             <b>
